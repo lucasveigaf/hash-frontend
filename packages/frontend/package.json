@@ -3,5 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "dependencies": {
+    "@hash-mono/financial-calculator": "^1.0.0",
+    "@hash-mono/stylesystem": "^1.0.0"
   }
 }
