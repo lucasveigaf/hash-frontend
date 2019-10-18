@@ -2,11 +2,13 @@
 
 Hash monorepo containing three packages:
 
-`frontend`: the main frontend application, which contains the anticipation webcomponent, the base HTML file and the JS entrypoint. It makes use of `stylesystem` and `financial-calculator`.
+**frontend**: the main frontend application, which contains the anticipation webcomponent, the base HTML file and the JS entrypoint. It makes use of `stylesystem` and `financial-calculator`.
 
-`stylesystem`: a collection of webcomponents following hash's style system. It contains several webcomponents such as: `<h-box>`, `<h-flex>` and `<h-currency-input>`.
+**stylesystem**: a collection of webcomponents following hash's style system. It contains several webcomponents such as: `<h-box>`, `<h-flex>` and `<h-currency-input>`.
 
-`financial-calculator`: a lib for calculating anticipation taxes given a MDR value.
+**financial-calculator**: a lib for calculating anticipation taxes given a MDR value.
+
+You can check it live at: [https://hash-frontend.netlify.com/](https://hash-frontend.netlify.com/)
 
 ## Usage
 
