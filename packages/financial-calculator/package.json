@@ -1,0 +1,8 @@
+{
+  "name": "@hash-mono/financial-calculator",
+  "version": "1.0.0",
+  "description": "Helpers for financial calculations",
+  "author": "lucas veiga fujicava <lucasveigaf@gmail.com>",
+  "homepage": "https://github.com/lucasveigaf/hash#readme",
+  "main": "src/index.js"
+}
