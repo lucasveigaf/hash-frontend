@@ -17,7 +17,9 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "@webcomponents/webcomponentsjs": "2.2.1",
     "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "ˆ14.0.0",
     "eslint-plugin-import": "^2.18.2",
