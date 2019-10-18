@@ -1,0 +1,8 @@
+{
+  "plugins": ["jasmine"],
+  "extends": ["eslint:recommended", "airbnb-base", "plugin:jasmine/recommended"],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  }
+}
