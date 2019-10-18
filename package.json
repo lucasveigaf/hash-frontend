@@ -1,0 +1,36 @@
+{
+  "name": "hash",
+  "version": "0.0.1",
+  "repository": "git@github.com:lucasveigaf/hash.git",
+  "author": "lucas veiga fujicava <lucasveigaf@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "lint": "./node_modules/.bin/eslint ./packages/*",
+    "dev": "./node_modules/.bin/webpack-dev-server --open",
+    "build": "webpack --mode=production",
+    "docs": "lerna run storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "ˆ14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "html-webpack-plugin": "^3.0.6",
+    "jasmine": "^3.5.0",
+    "lerna": "^3.16.4",
+    "karma": "^4.3.0",
+    "karma-webpack": "^4.0.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-karma-jasmine": "^3.0.8"
+  },
+  "dependencies": {}
+}
